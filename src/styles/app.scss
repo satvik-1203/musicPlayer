@@ -1,0 +1,17 @@
+@import "./_Song";
+@import "./Player";
+@import "./Library";
+@import "./UILibraryComponent";
+@import "./LibraryBtn";
+@import "./button.scss";
+@import "./main.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}

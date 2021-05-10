@@ -1,0 +1,25 @@
+.libraryComponent {
+  display: flex;
+  margin: 1rem 0rem;
+
+  align-items: center;
+  cursor: pointer;
+  h3 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
+
+  img {
+    width: 30%;
+    height: 30%;
+  }
+  .songDetails {
+    padding: 1rem;
+  }
+  padding: 0.7rem;
+  &:hover {
+    background-color: rgb(222, 222, 255);
+  }
+}

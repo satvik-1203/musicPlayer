@@ -1,0 +1,25 @@
+.timePlayer {
+  position: relative;
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+
+  input {
+    width: 100%;
+  }
+  .control {
+    padding: 1rem;
+  }
+}
+
+.controlsPlayer {
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.playerControl {
+  cursor: pointer;
+}

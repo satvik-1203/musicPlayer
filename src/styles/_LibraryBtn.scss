@@ -1,0 +1,24 @@
+.libraryBtn {
+  background-color: rgb(134, 134, 134);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.3rem;
+  color: white;
+}
+
+.libraryBtn:hover {
+  background-color: rgb(73, 71, 71);
+}
+
+.libraryBtn.active {
+  background-color: rgb(73, 71, 71);
+}
+
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.5rem;
+}

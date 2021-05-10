@@ -1,0 +1,9 @@
+main.notActive {
+  transform: scale(1) translate(0, 0);
+  transition: 0.3s;
+}
+
+main.active {
+  transform: scale(0.9) translate(10rem, -1rem);
+  transition: 0.3s;
+}
